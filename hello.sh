@@ -1,2 +1,4 @@
 #!/usr/bin/env bash
-echo "Hello $1"
+
+read -p "Entrez votre prénom >> " prenom
+echo "Bienvenue $prenom"
